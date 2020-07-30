@@ -28,7 +28,7 @@ import './App.css';
 function App() {
   return (
     <Provider>
-      <Router>
+      <Router basename='/recipes-app'>
         <Switch>
           <Route exact path="/" component={LoginPage} />
           <Route exact path="/comidas" component={FoodsPage} />
